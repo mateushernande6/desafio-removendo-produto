@@ -1,0 +1,12 @@
+{
+  "name": "desafio-removendo-produto",
+  "version": "1.0.0",
+  "description": "Desafio CodeBook",
+  "main": "index.js",
+  "author": "Mateus Hernandes",
+  "license": "MIT",
+  "dependencies": {
+    "esm": "^3.2.25"
+  },
+  "type": "module"
+}

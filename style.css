@@ -1,0 +1,56 @@
+:root {
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+}
+
+h1 {
+  text-align: center;
+}
+
+.cart__container {
+  width: 350px;
+  height: 500px;
+  background-color: #00000021;
+  border-radius: 15px;
+  margin: 0 auto;
+  padding: 10px;
+}
+
+.card__container {
+  display: flex;
+  background-color: #fff;
+  margin-bottom: 10px;
+  border-radius: 8px;
+  padding: 5px;
+  box-shadow: 2px 2px 5px black;
+  justify-content: space-between;
+}
+
+.card__content {
+  display: flex;
+}
+
+.card__img {
+  width: 50px;
+  height: 50px;
+  margin-right: 10px;
+}
+
+.card__name {
+  margin: 0;
+  margin-bottom: 5px;
+  font-weight: bold;
+}
+
+.card__price {
+  margin: 0;
+  font-weight: 600;
+  opacity: 0.5;
+}
+
+.card__remove {
+  margin: 0;
+  font-weight: bold;
+  margin-right: 5px;
+  color: rgb(155, 13, 13);
+  cursor: pointer;
+}

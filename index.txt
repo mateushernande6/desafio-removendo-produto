@@ -1,0 +1,6 @@
+📄 index.html
+📄 styles.css
+🗂 scripts
+📄 database.js <-- lista de produtos
+📄script.js <-- Arquivo para desenvolver sua lógica
+🗂 strict // Não é necessário acessar esta pasta para desenvolver a atividade
