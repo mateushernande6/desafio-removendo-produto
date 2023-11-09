@@ -28,7 +28,12 @@ listaDoCarrinho.forEach((item) => {
   buttonRemove &&
     buttonRemove.addEventListener("click", (e) => {
       e.preventDefault();
-      removeDoCarrinho(item);
+      const removed = removeDoCarrinho(item);
+
+      if (removed) {
+        // Remova o elemento do DOM
+        myCart.removeChild(cardContainer);
+      }
     });
 
   myCart.appendChild(cardContainer);
