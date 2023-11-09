@@ -30,7 +30,10 @@ listaDoCarrinho.forEach((item) => {
       e.preventDefault();
       const removed = removeDoCarrinho(item);
 
-      if (removed) {
+      if (
+        removed &&
+        listaDoCarrinho.filter((e) => e.id === removed.id).length === 0
+      ) {
         // Remova o elemento do DOM
         myCart.removeChild(cardContainer);
       }
